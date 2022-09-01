@@ -1,21 +1,3 @@
-# blog
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 淘宝镜像源切换地址，旧地址提供服务到2022 年 05 月 31 日
+官方：npm config set registry https://registry.npmmirror.com 
+原来：https://registry.npmjs.org/
