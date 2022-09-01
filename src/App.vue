@@ -3,8 +3,7 @@
     <router-view></router-view>
   </div>
 </template>
-npm config set prefix "E:\resource\nvm\node_global"
-npm config set cache "E:\resource\nvm\node_cache"
+
 <script>
 export default {
   name: "app",
