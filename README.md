@@ -1,35 +1,41 @@
-# Vue.js
+# vue-bootstrap-demo
 
-This directory is a brief example of a [Vue.js](https://vuejs.org/) app that can be deployed to Vercel with zero configuration.
+> A beautiful Vue.js application, which was built using one of the most popular CSS Framework for building mobile responsive websites Bootstrap 4 - along with Vuex Store, which is an  official state management pattern + library for Vue.js.
+> You can check out the full written version of this tutoial on medium [here](https://medium.com/@rachidsakara/how-to-style-a-vue-js-application-with-bootstrap-76e0ef9e93dd).
+## Project Overview
 
-## Deploy Your Own
+![vue bootstrap demo home page](https://i.ibb.co/SXhmH3q/Authors-Home.png?raw=true)
 
-Deploy your own Vue.js project with Vercel.
+![vue bootstrap demo author list page](https://i.ibb.co/19ZvxV6/Author-List-1.png?raw=true)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vue&template=vue)
+![vue bootstrap demo author list page](https://i.ibb.co/nBB45CT/Author-List-2.png?raw=true)
 
-_Live Example: https://vue-template.vercel.app_
+![vue bootstrap demo adding new authors page](https://i.ibb.co/yRFrWWg/Adding-New-Authors.png?raw=true)
 
-## Running Locally
-
+## Project setup
 ```
-yarn install
-```
-
-#### Compile and hot-reload for development
-
-```
-yarn serve
+npm install
 ```
 
-#### Compile and minify for production
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
+### Compiles and minifies for production
 ```
-yarn build
+npm run build
 ```
 
-#### Lint and fix files
+### Run your tests
+```
+npm run test
+```
 
+### Lints and fixes files
 ```
-yarn lint
+npm run lint
 ```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
