@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import Software from './views/Software.vue'
-import Teamwork from './views/Teamwork.vue'
+import About from './views/About.vue'
+import Sofotware from './views/Sofotware.vue'
 
 Vue.use(Router)
 
@@ -16,14 +16,14 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/software',
-      name: 'software-list',
-      component: Software,
+      path: '/about',
+      name: 'about',
+      component: About,
     },
     {
-      path: '/teamwork',
-      name: 'teamwork-list',
-      component: Teamwork,
+      path: '/sofotware',
+      name: 'sofotware',
+      component: Sofotware,
     }
   ]
 })
