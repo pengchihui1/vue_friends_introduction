@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import AuthorList from './views/AuthorList.vue'
-import NewAuthor from './views/NewAuthor.vue'
+import Software from './views/Software.vue'
+import Teamwork from './views/Teamwork.vue'
 
 Vue.use(Router)
 
@@ -16,14 +16,14 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/authors',
-      name: 'author-list',
-      component: AuthorList,
+      path: '/software',
+      name: 'software-list',
+      component: Software,
     },
     {
-      path: '/new',
-      name: 'new-author',
-      component: NewAuthor,
+      path: '/teamwork',
+      name: 'teamwork-list',
+      component: Teamwork,
     }
   ]
 })

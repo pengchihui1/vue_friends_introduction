@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-![vue bootstrap demo home page](https://i.ibb.co/SXhmH3q/Authors-Home.png?raw=true)
+![vue bootstrap demo home page](https://i.ibb.co/SXhmH3q/software-Home.png?raw=true)
 
 ![vue bootstrap demo author list page](https://i.ibb.co/19ZvxV6/Author-List-1.png?raw=true)
 
