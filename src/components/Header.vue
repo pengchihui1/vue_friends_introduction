@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-md bg-dark fixed-top">
+    <nav class="navbar navbar-expand-md  fixed-top">
         <b-img class="logo" src="logo1.jpg" rounded="circle"  fluid alt="Responsive image"></b-img>
         <div class="collapse navbar-collapse " id="navbarCollapse" >
             <ul class="navbar-nav ml-auto">
@@ -18,10 +18,6 @@
 </template>
 
 <style scoped>
-    /* .navbar{
-        background-color: pink;
-        color: white;
-    } */
     .logo{
         width: 60px;
         height: 60px;
@@ -31,7 +27,7 @@
         margin-left: 7px;
     }
     .nav-link{
-        color: white;
+        color: black;
     }
-
+   
 </style>

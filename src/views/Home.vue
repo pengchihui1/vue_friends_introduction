@@ -6,21 +6,29 @@
               <li id="pageUlLi2" class="pageUlLi" :class="{'active': curIndex == 2}">&nbsp;</li>
               <li id="pageUlLi3" class="pageUlLi" :class="{'active': curIndex == 3}">&nbsp;</li>
               <li id="pageUlLi4" class="pageUlLi" :class="{'active': curIndex == 4}">&nbsp;</li>
-              <li id="pageUlLi5" class="pageUlLi" :class="{'active': curIndex == 5}">&nbsp;</li>
           </ul>
-          <div style="background-color: #1b6d85" id="page1" class="page"></div>
-          <div style="background-color: #5cb85c" id="page2" class="page"></div>
-          <div style="background-color: #8a6d3b" id="page3" class="page"></div>
-          <div style="background-color: #337ab7" id="page4" class="page"></div>
-          <div style="background-color: #66512c" id="page5" class="page"></div>
+          <div id="page1" class="page"><PageVideo/></div>
+          <div id="page2" class="page"><PageFrist/></div>
+          <div id="page3" class="page"><PageTwo/></div>
+          <div id="page4" class="page"><PageThree/></div>
       </div>
   </div>
 </template>
 
 <script>
-  
+ import PageVideo from '../components/home/PageVideo'
+ import PageFrist from '../components/home/PageFrist'
+ import PageTwo from '../components/home/PageTwo'
+ import PageThree from '../components/home/PageThree'
+
   export default {
       name: 'Home',
+      components:{
+        PageVideo,
+        PageFrist,
+        PageTwo,
+        PageThree
+      },
       data(){
           return{
               screenWeight: 0,        // 屏幕宽度
@@ -101,9 +109,11 @@
       padding: 0px;
       margin: 0px;
   }
-  /* ul li{
+
+  ul li{
     list-style-type:none;
-  } */
+  }
+  
   #wrap {
       overflow: hidden;
       width: 100%;
@@ -129,4 +139,6 @@
   .active{
       color: red;
   }
+
+
 </style>

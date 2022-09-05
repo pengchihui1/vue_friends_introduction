@@ -5,7 +5,6 @@
 </template>
 
 <style scoped>
-
     footer {
         position: absolute;
         right: 0;
